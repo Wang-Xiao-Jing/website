@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+
+			[popover] {
+				width: 500px;
+				animation: 3s;
+				animation-name: a1;
+			}
+
+			@keyframes a1 {
+				0% {
+					width: 0px;
+				}
+
+				100% {
+					width: 500px
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<button popovertarget="CC">Show the CC</button>
+		<div popover="CC" id="CC">I'm a CC! I should animate.</div>
+	</body>
+</html>

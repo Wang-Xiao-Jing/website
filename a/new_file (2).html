@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			body{
+				background-color: #000;
+				width: 1000px;
+				height: 1000px;
+			}
+			div {
+				margin: auto;
+				/* border-radius: 100%; */
+				width:100%;
+				height: 100%;
+				background-color: #ffffa1;
+			}
+			
+			div>div {
+				/* width: 50px;
+				height: 50px; */
+				background-color: #ff0004;
+				transition-duration: 0.3s;
+				/* clip-path: path("M 45 45 L 25 25 50 50"); */
+				/* M 移动*/
+				/* h 向水平方向*/
+				/* v 向垂直方向*/
+				/* A 弧形
+					x 轴半径
+					y 轴半径,
+					弧形旋转,
+					角度大小(决定弧线是大于还是小于 180 度，0 表示小角度弧，1 表示大角度弧),
+					弧线方向(0 表示从起点到终点沿逆时针画弧，1 表示从起点到终点沿顺时针画弧),
+					弧形的终点 X
+					弧形的终点 Y
+				*/
+				/**/
+				clip-path: path(
+					"M 100 100\
+					 a 4 4, 0, 0, 1, 6 0\
+					 l 20 20\
+					 a 1 1, 0, 0, 1, -4 4\
+					 l -19 -18\
+					 l -19 18\
+					 a 1 1, 0, 0, 1, -4 -4\
+					m 20 0\
+					 a 4 4, 0, 0, 1, 6 0\
+					 l 20 20\
+					 a 1 1, 0, 0, 1, -4 4\
+					 l -19 -18\
+					 l -19 18\
+					 a 1 1, 0, 0, 1, -4 -4"
+				);
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div></div>
+		</div>
+	</body>
+</html>

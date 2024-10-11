@@ -1,0 +1,46 @@
+@keyframes kuang-zhi {
+	0% {
+		opacity: 0;
+		/*透明度*/
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes kuang1 {
+	0% {
+		width: 35px;
+		height: 35px;
+	}
+
+	100% {
+		width: 220;
+		height: 35px;
+	}
+}
+
+@keyframes dan-ti-0 {
+	0% {
+		left: 50px;
+		opacity: 0;
+	}
+
+	100% {
+		left: 0px;
+		opacity: 1;
+	}
+}
+
+@keyframes dan-ti-1 {
+	0% {
+		left: 50px;
+		opacity: 0;
+	}
+
+	100% {
+		left: 0px;
+		opacity: 1;
+	}
+}

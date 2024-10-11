@@ -1,0 +1,354 @@
+.quick>span:hover .pop {
+	transform: scaleY(1);
+	transform-origin: top;
+}
+
+.select {
+	text-align: center;
+	margin: 10PX auto;
+	width: 700px;
+	padding: 10px;
+	border-bottom: solid #fbf604 2px;
+}
+
+.select>div {
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+}
+
+#default0 {
+	color: #fefea0;
+}
+
+#ZAYIN0 {
+	color: #00ff00;
+}
+
+#TETH0 {
+	color: #1e8df7;
+}
+
+#HE0 {
+	color: #fbf604;
+}
+
+#WAW0 {
+	color: #892be2;
+}
+
+#ALEPH0 {
+	color: #ff0001;
+}
+
+.select label {
+	display: inline-block;
+	padding: 2px 20px;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #000000;
+	transition-timing-function: cubic-bezier(0.5, 0.885, 0.32, 2);
+	transition-duration: 0.2s;
+	cursor: url("../img/cursor/hand.png"), pointer;
+}
+
+.select label {
+	font-weight: 700;
+}
+
+.select input {
+	position: absolute;
+	appearance: none;
+}
+
+.select input:checked+label {
+	transform: scale(1.4);
+}
+
+.select input+label:hover {
+	transform: scale(1.6);
+}
+
+input~#select-box {
+	z-index: -1;
+	position: absolute;
+	left: -1px;
+	width: 92.13px;
+	height: 100%;
+	top: 0;
+	transition-timing-function: cubic-bezier(0.5, 0.885, 0.32, 1.1);
+	transition-duration: 0.5s;
+	transform-origin: bottom;
+	animation-duration: 0.5s;
+
+}
+
+#default:checked~#select-box {
+	animation-name: input1;
+	border-bottom: solid #fefea0 2px;
+	background: linear-gradient(rgba(255, 255, 161, 0.0) 20%, rgba(195, 195, 123, 1.0) 100%);
+}
+
+#ZAYIN:checked~#select-box {
+	animation-name: input2;
+	left: 85px;
+	border-bottom: solid #00ff00 2px;
+	background: linear-gradient(rgba(255, 255, 161, 0.0) 20%, rgba(0, 211, 0, 1.0) 100%);
+}
+
+#TETH:checked~#select-box {
+	left: 176px;
+	animation-name: input3;
+	border-bottom: solid #1e8df7 2px;
+	background: linear-gradient(rgba(255, 255, 161, 0.0) 20%, rgba(24, 115, 200, 1.0) 100%);
+}
+
+#HE:checked~#select-box {
+	left: 255px;
+	animation-name: input4;
+	border-bottom: solid #fbf604 2px;
+	background: linear-gradient(rgba(255, 255, 161, 0.0) 20%, rgba(197, 191, 3, 1.0) 100%);
+}
+
+#WAW:checked~#select-box {
+	left: 332px;
+	animation-name: input5;
+	border-bottom: solid #892be2 2px;
+	background: linear-gradient(rgba(255, 255, 161, 0.0) 20%, rgba(109, 34, 183, 1.0) 100%);
+}
+
+#ALEPH:checked~#select-box {
+	left: 426px;
+	animation-name: input6;
+	border-bottom: solid #ff0001 2px;
+	background: linear-gradient(rgba(255, 255, 161, 0.0) 20%, rgba(188, 0, 3, 1.0) 100%);
+}
+
+.unit-box {
+	padding: 30px;
+	padding-top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.unit-box aside {
+	margin: 15px;
+	width: 137px;
+	height: 203px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.ZD {
+	background-image: url("../img/异想体/DLC_Z.png");
+}
+
+.ZD:hover {
+	background-image: url("../img/异想体/DLC_Z1.png");
+}
+
+.TD {
+	background-image: url("../img/异想体/DLC_T.png");
+}
+
+
+.TD:hover {
+	background-image: url("../img/异想体/DLC_T1.png");
+}
+
+.WD {
+	background-image: url("../img/异想体/DLC_W.png");
+}
+
+.WD:hover {
+	background-image: url("../img/异想体/DLC_W1.png");
+}
+
+.AD {
+	background-image: url("../img/异想体/DLC_A.png");
+}
+
+.AD:hover {
+	background-image: url("../img/异想体/DLC_A1.png");
+}
+
+.Z {
+	background-image: url("../img/异想体/Z.png");
+}
+
+.Z:hover {
+	background-image: url("../img/异想体/Z1.png");
+}
+
+.T {
+	background-image: url("../img/异想体/T.png");
+}
+
+.T:hover {
+	background-image: url("../img/异想体/T1.png");
+}
+
+.H {
+	background-image: url("../img/异想体/H.png");
+}
+
+.H:hover {
+	background-image: url("../img/异想体/H1.png");
+}
+
+.W {
+	background-image: url("../img/异想体/W.png");
+}
+
+.W:hover {
+	background-image: url("../img/异想体/W1.png");
+}
+
+.AA {
+	background-image: url("../img/异想体/A.png");
+}
+
+.AA:hover {
+	background-image: url("../img/异想体/A1.png");
+}
+
+.unit-box aside {
+	transition-duration: 0.2s;
+	position: relative;
+	cursor: url("../img/cursor/hand.png"), pointer;
+}
+
+.unit-box aside .id {
+	width: 100%;
+	position: absolute;
+	transform: rotate(-3deg);
+	text-align: center;
+	font-weight: bold;
+	top: 37px;
+}
+
+.unit-box aside div {
+	transition-duration: 0.2s;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #fff;
+	cursor: url("../img/cursor/hand.png"), pointer;
+	color: #000;
+}
+
+.unit-box aside:hover {
+	transform: scale(1.2);
+}
+
+.unit-box aside:hover div {
+	-webkit-text-stroke-color: #000;
+	color: #fefea0;
+}
+
+.unit-box .AD .id,
+.unit-box .TD .id,
+.unit-box .WD .id,
+.unit-box .ZD .id {
+	top: 48px;
+}
+
+.unit-box aside .picture {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.unit-box aside .picture img {
+	cursor: url("img/cursor/hand.png"), url("../img/cursor/hand.png"), pointer;
+	width: 100px;
+	position: relative;
+	top: 65px;
+	left: 2px;
+}
+
+.unit-box .AD .picture img,
+.unit-box .TD .picture img,
+.unit-box .WD .picture img,
+.unit-box .ZD .picture img {
+	width: 79px;
+	position: relative;
+	top: 72px;
+	left: 2px;
+}
+
+.pop-up h1 {
+	cursor: url("img/cursor/hand.png"), url("../img/cursor/hand.png"), pointer;
+	font-size: 1.3em;
+	margin-bottom: 15px;
+}
+
+.pop-up p {
+	font-style: italic;
+	cursor: url("img/cursor/hand.png"), url("../img/cursor/hand.png"), pointer;
+	text-indent: 1em;
+}
+
+.unit-box aside .pop-up {
+	width: 150px;
+	height: 95%;
+	position: absolute;
+	border: solid #fff 5px;
+	top: 0;
+	left: -10px;
+	background-color: #000;
+	padding: 5px;
+	-webkit-text-stroke-width: 0px;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+	transform-origin: center;
+	transition-timing-function: cubic-bezier(0.5, 0.885, 0.32, 1.1);
+	transform: scaleX(-1);
+	perspective: 0;
+	opacity: 0;
+}
+
+.unit-box aside:hover .pop-up {
+	transform: scaleX(1);
+	opacity: 1;
+	z-index: 100;
+}
+
+.unit-box .Z .pop-up,
+.unit-box .ZD .pop-up {
+	border: solid #00ff00 2px;
+	box-shadow: #00ff00 0 0 10px 0;
+}
+
+.unit-box .T .pop-up,
+.unit-box .TD .pop-up {
+	border: solid #1e8df7 2px;
+	box-shadow: #1e8df7 0 0 10px 0;
+}
+
+.unit-box .H .pop-up,
+.unit-box .HD .pop-up {
+	border: solid #fbf604 2px;
+	box-shadow: #fbf604 0 0 10px 0;
+}
+
+.unit-box .W .pop-up,
+.unit-box .WD .pop-up {
+	border: solid #892be2 2px;
+	box-shadow: #892be2 0 0 10px 0;
+}
+
+.unit-box .AA .pop-up,
+.unit-box .AD .pop-up {
+	border: solid #ff0001 2px;
+	box-shadow: #ff0001 0 0 10px 0;
+
+}
+
+.purple {
+	color: #ff00ff;
+}
+
+.white {
+	color: #ffffff;
+}

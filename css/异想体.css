@@ -1,0 +1,132 @@
+.quick>span:nth-child(2) span {
+	transition-duration: 0.5s;
+	color: #65ffa9;
+	position: relative;
+	font-weight: 700;
+}
+
+.quick>span:nth-child(2):hover span {
+	color: #65ffa9;
+	text-decoration: underline;
+	text-shadow: #65ffa9 0 0 5px;
+}
+
+.section {
+	display: block;
+	padding: 10px 0px;
+	line-height: 30px;
+	padding-top: 25px;
+}
+
+.section p {
+	text-indent: 1em;
+}
+
+.section>div {
+	flex: 1;
+	margin-left: 10px;
+	padding: 5px;
+	border: solid #65ffa9 1px;
+	background-color: #000;
+	box-shadow: 0px 0px 5px 0px #65ffa9, inset 0px 0px 5px 0px #65ffa9;
+	margin-bottom: 20px;
+	transition-duration: 0.1s;
+	margin-top: 20px;
+}
+
+.section>div:hover {
+	box-shadow: 0px 0px 10px 2px #fff, inset 0px 0px 10px 2px #fff;
+	border-color: #fff;
+	transform: scale(1.03);
+}
+
+.section1 {
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(160, 160, 160, 1), 0px 0px 10px rgba(155, 155, 155, 1);
+	line-height: 30px;
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.ZAYIN {
+	color: #00ff00;
+}
+
+.TETH {
+	color: #1e8df7;
+}
+
+.HE {
+	color: #fbf604;
+}
+
+.WAW {
+	color: #892be2;
+}
+
+.ALEPH {
+	color: #ff0001;
+}
+
+.red {
+	color: #ff0001;
+}
+
+.section1 a {
+	color: #fff;
+}
+
+.section>p {
+	animation-duration: 0.5s;
+	animation-name: section1;
+}
+
+.section>div:nth-child(2) {
+	animation-duration: 0.5s;
+	animation-name: section2;
+}
+
+.section>div:nth-child(3) {
+	animation-duration: 1.5s;
+	animation-name: section2;
+}
+
+.section>div:nth-child(4) {
+	animation-duration: 2s;
+	animation-name: section2;
+}
+
+.section>div:nth-child(5) {
+	animation-duration: 2.5s;
+	animation-name: section2;
+}
+
+.quick>span:hover .pop {
+	transform: scaleY(1);
+	transform-origin: top;
+}
+
+.section div:nth-child(2) img {
+	position: relative;
+	float: right;
+	top: 30px;
+	right: 30px;
+}
+
+.slogan {
+	height: 30px;
+	vertical-align: middle;
+}
+.three{
+	height: 470px;
+}
+.three h4{
+	line-height: 40px;
+}
+.webp {
+	clear: both;
+	display: flow;
+	float: right;
+}

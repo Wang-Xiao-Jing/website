@@ -1,0 +1,59 @@
+@keyframes input1 {
+	0% {}
+
+	50% {
+		transform: scaley(0);
+	}
+
+	100% {}
+}
+
+@keyframes input2 {
+	0% {}
+
+	50% {
+		transform: scaley(0);
+	}
+
+	100% {}
+}
+
+@keyframes input3 {
+	0% {}
+
+	50% {
+		transform: scaley(0);
+	}
+
+	100% {}
+}
+
+@keyframes input4 {
+	0% {}
+
+	50% {
+		transform: scaley(0);
+	}
+
+	100% {}
+}
+
+@keyframes input5 {
+	0% {}
+
+	50% {
+		transform: scaley(0);
+	}
+
+	100% {}
+}
+
+@keyframes input6 {
+	0% {
+		transform: scaley(0);
+	}
+
+	50% {}
+
+	100% {}
+}

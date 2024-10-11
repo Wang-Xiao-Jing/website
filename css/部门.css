@@ -1,0 +1,406 @@
+.quick>span>a:hover~.pop,
+.quick>span:hover .pop {
+	transform: scaleY(1);
+	transform-origin: top;
+}
+
+.quick>span:nth-child(1) span {
+	transition-duration: 0.5s;
+	color: #65ffa9;
+	position: relative;
+	font-weight: 700;
+}
+
+.quick>span:nth-child(1):hover span {
+	color: #65ffa9;
+	text-decoration: underline;
+	text-shadow: #65ffa9 0 0 5px;
+}
+
+.section {
+	display: block;
+	padding: 10px 0px;
+	line-height: 30px;
+	padding-top: 25px;
+}
+
+.section>p {
+	text-indent: 1em;
+	animation-duration: 0.5s;
+	animation-name: section1;
+}
+
+.section>div {
+	flex: 1;
+	margin-left: 10px;
+	padding: 5px;
+	border: solid #65ffa9 1px;
+	background-color: #000;
+	box-shadow: 0px 0px 5px 0px #65ffa9, inset 0px 0px 5px 0px #65ffa9;
+	margin-bottom: 20px;
+	transition-duration: 0.1s;
+	margin-top: 20px;
+}
+
+.section>div:nth-child(2) {
+	position: relative;
+	height: 770px;
+	background-color: #181818;
+	background-image: url("../img/构筑部.webp"), url("../img/部门.webp");
+	background-size: 800px, 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 100%, 0 0;
+	animation-duration: 0.5s;
+	animation-name: section2;
+}
+
+.section>div:hover {
+	box-shadow: 0px 0px 10px 2px #fff, inset 0px 0px 10px 2px #fff;
+	border-color: #fff;
+	transform: scale(1.03);
+}
+
+.section1 {
+	color: #fff;
+	text-shadow: 2px 2px 5px rgba(160, 160, 160, 1), 0px 0px 10px rgba(155, 155, 155, 1);
+	line-height: 30px;
+	font-size: 1.7em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.section1 a {
+	color: #fff;
+}
+
+.section>div:nth-child(2)>div,
+.section>div:nth-child(2)>div>div,
+.section>div:nth-child(2)>div>span {
+	position: absolute;
+}
+
+.upper,
+.middle,
+.lower {
+	transition-duration: 0.5s;
+	width: 100%;
+	top: 185px;
+	opacity: 0;
+}
+
+.upper div {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.upper div a {
+	-webkit-text-stroke-width: 0.8px;
+	-webkit-text-stroke-color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+.upper span {
+	color: #65ffa9;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #000;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: center;
+	top: -180px;
+	left: 469px;
+}
+
+.upper div:nth-child(2) {
+	top: -105px;
+	left: 454px;
+}
+
+.upper div:nth-child(3) {
+	top: 30px;
+	left: 454px;
+}
+
+.upper div:nth-child(4) {
+	top: -105px;
+	left: 242px;
+}
+
+.upper div:nth-child(5) {
+	top: -105px;
+	left: 666px;
+}
+
+.upper div:nth-child(2) a {
+	color: #b8af74;
+}
+
+.upper div:nth-child(3) a {
+	color: #af91c3;
+}
+
+.upper div:nth-child(4) a {
+	color: #55bc5e;
+}
+
+.upper div:nth-child(5) a {
+	color: #bf7d36;
+}
+
+.middle div {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.middle {
+	top: 500px;
+}
+
+.middle div a {
+	-webkit-text-stroke-width: 0.8px;
+	-webkit-text-stroke-color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+.middle span {
+	color: #65ffa9;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #000;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: center;
+	top: -180px;
+	left: 469px;
+}
+
+.middle div:nth-child(2) {
+	top: -93px;
+	left: 445px;
+}
+
+.middle div:nth-child(3) {
+	top: -93px;
+	left: 185px;
+}
+
+.middle div:nth-child(4) {
+	top: -93px;
+	left: 720px;
+}
+
+.middle div:nth-child(2) a {
+	color: #c75d39;
+}
+
+.middle div:nth-child(3) a {
+	color: #3d83bb;
+}
+
+.middle div:nth-child(4) a {
+	color: #c84644;
+}
+
+.middle div {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.lower div {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.lower {
+	top: 750px;
+}
+
+.lower div a {
+	-webkit-text-stroke-width: 0.8px;
+	-webkit-text-stroke-color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+
+.lower span {
+	color: #65ffa9;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #000;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: center;
+	top: -180px;
+	left: 469px;
+}
+
+.lower div:nth-child(2) {
+	top: -210px;
+	left: 310px;
+}
+
+.lower div:nth-child(3) {
+	top: -210px;
+	left: 600px;
+}
+
+.lower div:nth-child(4) {
+	top: -120px;
+	left: 455px;
+}
+
+.lower div:nth-child(2) a {
+	color: #d6d7cf;
+}
+
+.lower div:nth-child(3) a {
+	color: #c9b95e;
+}
+
+.lower div:nth-child(4) a {
+	color: #ffffff;
+}
+
+.upper>div,
+.middle>div,
+.lower>div,
+.upper>div>a,
+.middle>div>a,
+.lower>div>a {
+	transition-duration: 0.5s;
+}
+
+.upper>div:hover,
+.middle>div:hover,
+.lower>div:hover {
+	transform: scale(1.5);
+}
+
+.upper>div:hover>a,
+.middle>div:hover>a,
+.lower>div:hover>a {
+	text-shadow: 0 0 10px;
+}
+
+.department>div>div>a {
+	position: relative;
+}
+
+.department>div>div>a>div {
+	left: -100%;
+	position: absolute;
+	width: 200px;
+	opacity: 0;
+	transition-duration: 0.2S;
+	transform: scale(0, 1);
+}
+
+.department>div>div:hover div {
+	transform: scale(1, 1);
+	opacity: 1;
+	z-index: 1;
+}
+
+.department>div:nth-child(1)>div:nth-child(1) {
+	z-index: 10;
+}
+
+.department>div:nth-child(1)>div:nth-child(2) {
+	z-index: 9;
+}
+
+.department>div:nth-child(1)>div:nth-child(3) {
+	z-index: 8;
+}
+
+.department>div:nth-child(1)>div:nth-child(4) {
+	z-index: 7;
+}
+
+.department>div:nth-child(2)>div:nth-child(1) {
+	z-index: 6;
+}
+
+.department>div:nth-child(2)>div:nth-child(2) {
+	z-index: 5;
+}
+
+.department>div:nth-child(2)>div:nth-child(3) {
+	z-index: 4;
+}
+
+.department>div:nth-child(3)>div:nth-child(1) {
+	z-index: 3;
+}
+
+.department>div:nth-child(3)>div:nth-child(2) {
+	z-index: 2;
+}
+
+.department>div:nth-child(3)>div:nth-child(3) {
+	z-index: 1;
+}
+
+.department>div>div>a>div>span {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.department>div>div>a>div>span>span:nth-child(1) {
+	font-size: 0.8em;
+}
+
+.department>div>div>a>div>span>span:nth-child(2) {
+	font-size: 0.8em;
+}
+
+.upper div:nth-child(2) span {
+	color: #b8af74;
+}
+
+.upper div:nth-child(3) span {
+	color: #af91c3;
+}
+
+.upper div:nth-child(4) span {
+	color: #55bc5e;
+}
+
+.upper div:nth-child(5) span {
+	color: #bf7d36;
+}
+
+.middle div:nth-child(2) span {
+	color: #c75d39;
+}
+
+.middle div:nth-child(3) span {
+	color: #3d83bb;
+}
+
+.middle div:nth-child(4) span {
+	color: #c84644;
+}
+
+.lower div:nth-child(2) span {
+	color: #d6d7cf;
+}
+
+.lower div:nth-child(3) span {
+	color: #c9b95e;
+}
+
+.lower>div>a>div{
+	bottom: 100%;
+}
+
+.department:hover .upper,
+.department:hover .middle,
+.department:hover .lower {
+	opacity: 1;
+}
+
+#dao-hang {
+	margin-top: 106px;
+}
