@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="website">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/img.zip!/" />
+      <root url="jar://$PROJECT_DIR$/css.zip!/" />
+      <root url="jar://$PROJECT_DIR$/首页.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
